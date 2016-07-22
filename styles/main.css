@@ -33,7 +33,7 @@ header .nav-bar {
 
 header .nav-bar p {
   margin-top: 1em;
-  color: #124067;
+  color: #0C273F;
 }
 
 header h1 {
@@ -48,7 +48,7 @@ header h1 {
 header p {
   margin-top: 0;
   font-size: 1em;
-  color: #124067;
+  color: #0C273F;
 }
 
 header ul {
@@ -64,14 +64,23 @@ header ul li {
 /*---------------Text Gallery--------------------*/
 h2 {
   font-family: 'Oswald', sans-serif;
-  color: #103048;
+  color: #0C2740;
 }
 
 
 .content-display p {
-  color: #758592;
+  color: #4B555C;
 }
 
 .content-display h3 {
   color: #1858A4;
+}
+
+.content-display h4 {
+  color: #1858A4;
+}
+
+/*-------------Footer Section------------------------*/
+footer h2 {
+  color: #0C263E;
 }
