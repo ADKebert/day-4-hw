@@ -33,7 +33,7 @@ header .nav-bar {
 
 header .nav-bar p {
   margin-top: 1em;
-  color: #005182;
+  color: #124067;
 }
 
 header h1 {
@@ -48,7 +48,7 @@ header h1 {
 header p {
   margin-top: 0;
   font-size: 1em;
-  color: #005182;
+  color: #124067;
 }
 
 header ul {
@@ -64,4 +64,14 @@ header ul li {
 /*---------------Text Gallery--------------------*/
 h2 {
   font-family: 'Oswald', sans-serif;
+  color: #103048;
+}
+
+
+.content-display p {
+  color: #758592;
+}
+
+.content-display h3 {
+  color: #1858A4;
 }
