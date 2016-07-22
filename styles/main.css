@@ -138,6 +138,53 @@ h2 {
   margin-left: 1%;
 }
 
+.social-media-footer {
+  display: flex;
+}
+
+.media-button {
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+  white-space: nowrap;
+}
+
+.media-button button {
+  background-color: #4B555C;
+  height: 26px;
+  width: 26px;
+  border: none;
+  background-size: 11px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.media-button [name=comment] {
+  background-image: url(../images/icon-comment.png);
+}
+
+.media-button [name="later"] {
+  background-image: url(../images/icon-upload.png);
+}
+
+.media-button [name="share"] {
+  background-image: url(../images/icon-share.png);
+  background-color: #0C2740;
+}
+
+.media-button p {
+  background-color: #92A3B2;
+  max-height: 26px;
+  padding: .3em;
+  font-size: .8em;
+  color: white;
+}
+
+/*---This must follow .media-button p because the id level is the same----*/
+.blue p {
+  background-color: #1858A4;
+}
+
 /*-------------Footer Section------------------------*/
 footer {
   color: #92A3B2;
