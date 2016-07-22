@@ -30,7 +30,7 @@ header .nav-bar {
   justify-content: space-between;
   width: 75%;
   margin-top: 1em;
-  margin-bottom: 7em;
+  margin-bottom: 4em;
 }
 
 header .nav-bar p {
@@ -40,7 +40,7 @@ header .nav-bar p {
 
 header h1 {
   color: white;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: normal;
   margin-bottom: 0;
   text-align: center;
@@ -48,7 +48,7 @@ header h1 {
 }
 
 header p {
-  margin-top: 0;
+  margin-top: -1%;
   font-size: 1em;
   color: #0C273F;
 }
@@ -91,6 +91,7 @@ h2 {
 .main-column h2{
   font-size: 3.5em;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .content-display p {
@@ -107,6 +108,27 @@ h2 {
 .content-display h4 {
   color: #3D7DBA;
   font-family: "Oswald", sans-serif;
+}
+
+.title-footer {
+  display:flex;
+  align-items: center;
+}
+
+.title-footer p {
+  color: #ACB9C4;
+  font-size: .8em;
+}
+
+.title-footer .author{
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #3D7DBA;
+}
+
+.title-footer a {
+  margin-left: 1%;
+  color: #ACB9C4;
 }
 
 /*-------------Footer Section------------------------*/
