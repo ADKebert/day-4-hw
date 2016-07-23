@@ -234,6 +234,21 @@ h2 {
   font-size: .85em;
 }
 
+.sidebar p {
+  margin-top: .3em;
+  font-size: .85em;
+  color: #92A3B2;
+}
+
+.sidebar h5 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  color: #3D7DBA;
+  font-family: "Oswald", sans-serif;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
 
 /*-------------Footer Section------------------------*/
 footer {
