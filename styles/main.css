@@ -89,6 +89,10 @@ h2 {
 }
 
 /*---------Main Column--*/
+.main-column {
+  margin-right: 5%;
+}
+
 .main-column h2{
   font-size: 3.5em;
   font-weight: normal;
@@ -188,6 +192,9 @@ h2 {
 }
 
 /*----------------Sidebar---*/
+.sidebar {
+  min-width: 273px;
+}
 .author-box {
   display: flex;
   flex-direction: column;
@@ -216,6 +223,15 @@ h2 {
 
 .author-box a {
   text-decoration: none;
+}
+
+.ad-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ad-info a {
+  font-size: .85em;
 }
 
 
