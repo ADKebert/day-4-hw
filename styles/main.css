@@ -286,8 +286,10 @@ footer .link-bar {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  text-align: left;
   font-family: "Oswald", sans-serif;
   font-size: 2em;
+
   color: #003353;
   background-color: none;
 }
@@ -302,6 +304,42 @@ footer .link-bar {
 
 .post-link-with-image button[name="another-cool-post"]:hover {
   background: url(../images/article-image-1.jpg);
+}
+
+.post-link-with-image button[name="post-title"] {
+  background: linear-gradient(
+    rgba(0, 105, 182, 0.5),
+    rgba(0, 105, 182, 0.5)
+  ),
+  url(../images/article-image-2.jpg);
+}
+
+.post-link-with-image button[name="post-title"]:hover {
+  background: url(../images/article-image-2.jpg);
+}
+
+.post-link-with-image button[name="longer-post-title"] {
+  background: linear-gradient(
+    rgba(0, 105, 182, 0.5),
+    rgba(0, 105, 182, 0.5)
+  ),
+  url(../images/article-image-3.jpg);
+}
+
+.post-link-with-image button[name="longer-post-title"]:hover {
+  background: url(../images/article-image-3.jpg);
+}
+
+.post-link-with-image button[name="oh-cool"] {
+  background: linear-gradient(
+    rgba(0, 105, 182, 0.5),
+    rgba(0, 105, 182, 0.5)
+  ),
+  url(../images/article-image-4.jpg);
+}
+
+.post-link-with-image button[name="oh-cool"]:hover {
+  background: url(../images/article-image-4.jpg);
 }
 
 .post-link-with-image button:hover {
