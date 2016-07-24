@@ -346,3 +346,44 @@ footer .link-bar {
   background-color: transparent;
   color: #FFFFFF;
 }
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: .85em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.bottom-nav .logo {
+  width: 46px;
+  height: 35;
+  background-image: url(../images/theironyard-logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color:transparent;
+  margin-right: 2%;
+}
+
+.bot-logo-and-text {
+  display:flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.bottom-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.bottom-nav li {
+  padding-left: 2%;
+  padding-right: 2%;
+  border-right: 1px solid #A0B3C0;
+  white-space: nowrap;
+}
+
+.bottom-nav li:last-child {
+  border-right: none;
+}
