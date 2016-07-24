@@ -276,31 +276,35 @@ footer .bottom-nav {
 footer .link-bar {
   display:flex;
   width: 100%;
-}
-
-footer .post-link-with-image {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-color: #1858A4;
   /*border: 1px solid red;*/
 }
 
-footer .post-link-with-image img {
-  opacity: 0.5;
-  margin-bottom: .6em;
-}
-
-footer .post-link-with-image h3 {
+.post-link-with-image button {
+  border: none;
+  width: 325px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  font-size: 1.8em;
-  margin-top: -1.8em;
-  margin-bottom: 0;
-    color: rgba(0, 51, 83, 1)
+  font-size: 2em;
+  color: #003353;
+  background-color: none;
 }
 
-footer .post-link-with-image img:hover {
-  opacity: 1;
+.post-link-with-image button[name="another-cool-post"] {
+  background: linear-gradient(
+    rgba(0, 105, 182, 0.5),
+    rgba(0, 105, 182, 0.5)
+  ),
+  url(../images/article-image-1.jpg);
+}
 
+.post-link-with-image button[name="another-cool-post"]:hover {
+  background: url(../images/article-image-1.jpg);
+}
+
+.post-link-with-image button:hover {
+  background-color: transparent;
+  color: #FFFFFF;
 }
